@@ -9,6 +9,15 @@
 
 @font-face {
   src:
+    url("./font/Inter-Bold.woff2") format("woff2"),
+    url("./font/Inter-Bold.woff") format("woff");
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src:
     url("./font/Inter-Black.woff2") format("woff2"),
     url("./font/Inter-Black.woff") format("woff");
   font-family: "Inter";
