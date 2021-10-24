@@ -6,13 +6,20 @@
     margin: 28px auto 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        width: 90.7%;
+    }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .header {
+      width: 93.5%;
+    }
 }
-@media screen and (max-width: 425px) {
-}
-@media screen and (max-width: 375px) {
-}
-@media screen and (max-width: 320px) {
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .header {
+      width: 90.5%;
+    }
 }
