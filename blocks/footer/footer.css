@@ -7,33 +7,29 @@
     align-items: baseline;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .footer {
         width: 90.7%;
     }
 }
 
-@media screen and (min-width: 680px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .footer {
       width: 93.5%;
       padding-top: 88px;
     }
 }
 
-
-
-@media screen and (min-width: 375px) and (max-width: 679px) {
+@media screen and (max-width: 679px) {
     .footer {
-      width: 93.5%;
       padding-top: 64px;
       align-items: end;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (max-width: 374px) {
     .footer {
-      width: 93.5%;
-      padding-top: 64px;
+      width: 90%;
       align-items: start;
       flex-direction: column;
     }

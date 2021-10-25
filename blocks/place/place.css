@@ -12,28 +12,22 @@
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .place {
         column-gap: 32px;
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .place {
         column-gap: 28px;
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 499px) {
+@media screen and (max-width: 499px) {
     .place {
         grid-template-columns: none;
-        column-gap: 32px;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 375px) {
-    .place {
-        grid-template-columns: none;
-        column-gap: 32px;
+        row-gap: 32px;
+        margin-bottom: 50px;
     }
 }

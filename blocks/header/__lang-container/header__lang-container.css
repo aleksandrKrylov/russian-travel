@@ -1,4 +1,12 @@
 .header__lang-container {
     display: flex;
     width: calc((30px * 2) + 18px);
+    padding: 0;
+    list-style: none;
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang-container {
+        width: calc((20px * 2) + 18px);
+    }
 }

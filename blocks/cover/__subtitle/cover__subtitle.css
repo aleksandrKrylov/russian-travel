@@ -7,19 +7,25 @@
     text-align: center;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover__subtitle {
         width: 35%;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cover__subtitle {
         width: 47%;
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media screen and (max-width: 700px) {
+    .cover__subtitle {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 425px) {
     .cover__subtitle {
       width: 93.5%;
       font-size: 14px;
@@ -29,11 +35,8 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .cover__subtitle {
         width: 90%;
-        font-size: 14px;
-        line-height: 16px;
-        margin-top: 16px;
     }
 }
